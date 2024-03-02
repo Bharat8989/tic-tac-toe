@@ -6,7 +6,7 @@ let msgContainer=document.querySelector(".msg-container");
 let msg=document.querySelector("#msg");
 
 const winPatterns = [
-    [0, 1, 2], // Top row
+    [0, 1, 2], // 
     [3, 4, 5], // Middle row
     [6, 7, 8], // Bottom row
     [0, 3, 6], // Left column
@@ -35,7 +35,7 @@ boxes.forEach(box => {
         }
         box.disabled=true;
         checkWinner();
-        // playerX = !playerX; // Toggle between players
+        
     });
 });
 const disabledBoxes = () =>{
